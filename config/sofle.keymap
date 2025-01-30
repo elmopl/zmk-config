@@ -55,11 +55,11 @@
         raise_layer {
             display-name = "raise";
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &trans      &kp KP_NUMLOCK  &kp FSLH  &kp STAR  &kp MINUS  &kp C_MUTE
-&trans      &trans        &trans        &trans        &trans        &trans                          &trans      &kp N7          &kp N8    &kp N9    &kp N0     &kp C_VOLUME_UP
-&trans      &kp LALT      &kp LCTRL     &kp LSHFT     &trans        &kp CLCK                        &trans      &kp N4          &kp N5    &kp N6    &kp DEL    &kp C_VOLUME_DOWN
-&trans      &kp K_UNDO    &kp K_CUT     &kp K_COPY    &kp K_PASTE   &trans        &trans    &trans  &kp INSERT  &kp N1          &kp N2    &kp N3    &kp N0     &trans
-                          &trans        &trans        &trans        &trans        &trans    &trans  &trans      &trans          &trans    &trans
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &trans      &kp KP_NUMLOCK   &kp KP_DIVIDE    &kp KP_MULTIPLY  &kp KP_MINUS     &kp C_MUTE
+&trans      &trans        &trans        &trans        &trans        &trans                          &trans      &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_PLUS      &kp C_VOLUME_UP
+&trans      &trans        &trans        &trans        &trans        &trans                          &trans      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_EQUAL     &kp C_VOLUME_DOWN
+&trans      &trans        &trans        &trans        &trans        &trans        &trans    &trans  &kp INSERT  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_0  &trans
+                          &trans        &trans        &trans        &trans        &trans    &trans  &trans      &trans           &trans           &trans
             >;
         };
 
