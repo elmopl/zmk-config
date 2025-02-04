@@ -44,11 +44,11 @@
         lower_layer {
             display-name = "lower";
             bindings = <
-&trans  &trans  &trans          &trans          &trans           &trans                           &trans     &trans      &trans     &trans     &trans    &trans
-&trans  &trans  &trans          &kp UP_ARROW    &trans           &trans                           &kp MINUS  &trans      &trans     &trans     &trans    &trans
-&trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_UP                      &kp CARET  &kp AMPS    &kp ASTRK  &kp LPAR   &kp RPAR  &kp PIPE
-&trans  &trans  &trans          &kp HOME        &kp END          &kp PAGE_DOWN  &trans    &trans  &kp LBKT   &kp RBKT    &kp SEMI   &kp COLON  &kp BSLH  &trans
-                &trans          &trans          &trans           &trans         &trans    &trans  &trans     &kp DELETE  &trans     &trans
+&trans  &trans  &trans          &trans          &trans           &trans                           &trans     &trans            &trans             &trans     &trans    &trans
+&trans  &trans  &trans          &kp UP_ARROW    &trans           &trans                           &kp CARET  &kp AMPERSAND     &kp ASTERISK       &trans     &trans    &trans
+&trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_UP                      &kp PIPE   &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp LPAR   &kp RPAR  &trans
+&trans  &trans  &trans          &kp HOME        &kp END          &kp PAGE_DOWN  &trans    &trans  &trans     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp COLON  &kp BSLH  &trans
+                &trans          &trans          &trans           &trans         &trans    &trans  &trans     &kp DELETE        &trans             &trans
             >;
         };
 
@@ -57,7 +57,7 @@
             bindings = <
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &trans      &kp KP_NUMLOCK   &kp KP_DIVIDE    &kp KP_MULTIPLY  &kp KP_MINUS     &kp C_MUTE
 &trans      &trans        &trans        &trans        &trans        &trans                          &trans      &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_PLUS      &kp C_VOLUME_UP
-&trans      &trans        &trans        &trans        &trans        &trans                          &trans      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_EQUAL     &kp C_VOLUME_DOWN
+&trans      &trans        &trans        &trans        &trans        &trans                          &trans      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp EQUAL        &kp C_VOLUME_DOWN
 &trans      &trans        &trans        &trans        &trans        &trans        &trans    &trans  &kp INSERT  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_0  &trans
                           &trans        &trans        &trans        &trans        &trans    &trans  &trans      &trans           &trans           &trans
             >;
