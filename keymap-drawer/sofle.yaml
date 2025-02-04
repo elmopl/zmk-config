@@ -21,9 +21,9 @@ layers:
   - UP ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '-'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ^
+  - '&'
+  - '*'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -33,12 +33,12 @@ layers:
   - DOWN ARROW
   - RIGHT ARROW
   - PAGE UP
-  - ^
-  - '&'
-  - '*'
+  - '|'
+  - '{'
+  - '}'
   - (
   - )
-  - '|'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -47,9 +47,9 @@ layers:
   - PAGE DOWN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '['
   - ']'
-  - ;
   - ':'
   - \
   - {t: ▽, type: trans}
@@ -98,7 +98,7 @@ layers:
   - KP 4
   - KP 5
   - KP 6
-  - KP EQUAL
+  - '='
   - VOLUME DOWN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
